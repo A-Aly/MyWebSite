@@ -1,0 +1,50 @@
+ *{
+  margin: 0;
+  padding: 0;
+  font-family:cursive;
+    text-align: center;
+    background-image:url('WholeBackgroung.jpg');
+}
+
+#whole {
+  margin: 0 auto;
+  font-weight: bold;
+  /* background-image: url('WholeBackgroung.jpg'); */
+
+  background-attachment: fixed;
+
+}
+ img {
+   border: dashed 4 px white;
+ }
+#nheader {
+background-color:
+height: 100px;
+color: blue;
+  font-size: 25px;
+}
+
+h1 {color:blue;}
+
+#npara {
+border-width: inherit;
+  height: 500px;
+}
+
+#nursery {
+margin-top: 30px;
+margin-left: 30px;
+    text-align: left;
+}
+
+#grocery {
+margin-top: 30px;
+margin-left: 30px;
+    text-align: left;
+}
+
+
+
+/* put any comment
+you can search for any code by copying the code and paste it to google and search
+you may find the exact code you need like in  stackoverflow website*/
