@@ -17,3 +17,19 @@
     font-size: 20px;
     color: purple;
 }
+
+.column {
+  float:left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+#grocery {
+  padding-left: 300px;
+}
