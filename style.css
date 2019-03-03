@@ -3,16 +3,16 @@
   padding: 0;
   font-family:cursive;
     text-align: center;
-    background-image:url('WholeBackgroung.jpg');
 }
 
 #whole {
   margin: 0 auto;
   font-weight: bold;
-  /* background-image: url('WholeBackgroung.jpg'); */
-
   background-attachment: fixed;
-
+  background-image:url('WholeBackgroung.jpg');
+  background-position: center;
+  background-size: contain;
+  height: 700px;
 }
  img {
    border: dashed 4 px white;
@@ -44,6 +44,11 @@ margin-left: 30px;
 }
 
 
+#footer {
+  height: 100px;
+  color: blue;
+  font-size: 25px;
+  }
 
 /* put any comment
 you can search for any code by copying the code and paste it to google and search
