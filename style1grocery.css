@@ -1,0 +1,35 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family:cursive;
+   text-align: center;
+}
+#nheader {
+  background-color: white;
+  height: 100px;
+  color: purple;
+  font-size: 25px;
+}
+
+#npara {
+    border-width: inherit;
+    height: 10px;
+    font-size: 20px;
+    color: purple;
+}
+
+.column {
+  float:left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+#grocery {
+  padding-left: 300px;
+}
