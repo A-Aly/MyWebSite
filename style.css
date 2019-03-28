@@ -89,6 +89,11 @@ a:link { color: #2980b9;}
   display: inline;
 }
 
+.post-img{
+  width: 100%;
+
+}
+
 /* -------------------------------Side bar------------------------------*/
 .theSidebar {
   width: 24%;
@@ -96,7 +101,8 @@ a:link { color: #2980b9;}
   float: left;
   padding: 2%;
   background-color: #fff;
-
+  border-radius: 5px;
+    --moz-border-radius: 5px;
 }
 
 /* ------------------------------Footer------------------------------*/
@@ -114,4 +120,51 @@ a:link { color: #2980b9;}
   text-align: center;
   color: white;
   width: 90%;
+}
+
+/* -------------------------------Css for mobile------------------------------*/
+@media screen and (max-width: 340px;){
+  .body {
+    width: 90%;
+    font-size: 95%;
+  }
+  /* -------------------------------Main header mobile------------------------------*/
+
+
+.mainheader nav {
+  height: 160px;
+}
+
+.mainheader ul{
+  width: 100%;
+  padding: 0;
+}
+
+
+.mainheader nav ul li {
+  display: inline;
+}
+
+.mainheader a:link, .mainheader a:visited {
+  color: white;
+  padding: 10px 40px;
+  display: inline-block;
+  height: 20 px;
+  display: block;
+}
+
+.mainheader a:hover {
+  color: white;
+  border-color: #f1c40f;
+  text-shadow: none;
+}
+ .mainheader a:active {
+  width: 100%;
+}
+
+.theSidebar {
+  width: 94%;
+
+}
+
 }
