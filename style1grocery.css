@@ -3,7 +3,16 @@
    padding: 0;
    font-family:cursive;
    text-align: center;
+   background-image: url('img/bodybg.jpg');
 }
+
+
+.top-content {
+  background-color: #fff;
+  padding: 3%;
+  margin-top:3%;
+  border-radius: 5px;
+  --moz-border-radius: 5px;
 #nheader {
   background-color: white;
   height: 100px;
@@ -16,6 +25,9 @@
     height: 10px;
     font-size: 20px;
     color: purple;
+}
+.raw {
+  float: left;
 }
 
 .column {
@@ -33,3 +45,10 @@
 #grocery {
   padding-left: 300px;
 }
+
+/* -------------------------------Css for mobile------------------------------*/
+@media screen and (max-width: 340px;){
+  .body {
+    width: 90%;
+    font-size: 95%;
+  }}
