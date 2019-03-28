@@ -6,7 +6,15 @@
    background-image: url('img/bodybg.jpg');
 }
 
+.mainheader img {
+  width: 80%;
+}
 
+.post-content {
+  font-size: 30px;
+  text-decoration: none;
+
+}
 .top-content {
   background-color: #fff;
   padding: 3%;
