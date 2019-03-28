@@ -1,0 +1,13 @@
+/*
+Date: March 2019;
+Disription: Main website page stylesheet
+*/
+
+body {
+  background-image: url('img/bodybg.jpg');
+  color: #000305;
+  font-size: 87%; /* base font-size = 14px */
+  font-family: serif; , 'Lucide Sans Unicode';
+  line-height: 1.5;
+  text-align: left;
+}
