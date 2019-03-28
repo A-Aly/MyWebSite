@@ -97,6 +97,7 @@ a:link { color: #2980b9;}
 /* -------------------------------Side bar------------------------------*/
 .theSidebar {
   width: 24%;
+  height: 20%;
   margin: 2% 0 0 2%;
   float: left;
   padding: 2%;
