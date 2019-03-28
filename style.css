@@ -1,55 +1,170 @@
- *{
-  margin: 0;
-  padding: 0;
-  font-family:cursive;
-    text-align: center;
+/*
+Date: March 2019;
+Disription: Main website page stylesheet
+*/
+
+body {
+  background-image: url('img/bodybg.jpg');
+  color: #000305;
+  font-size: 87%; /* base font-size = 14px */
+  font-family: arial; , 'Lucide Sans Unicode';
+  line-height: 1.5;
+  text-align: left;
 }
 
-#whole {
-  margin: 0 auto;
-  font-weight: bold;
-  background-attachment: fixed;
-  background-image:url('WholeBackgroung.jpg');
-  background-position: center;
-  background-size: contain;
-  height: 700px;
-}
- img {
-   border: dashed 4 px white;
- }
-#nheader {
-background-color:
-height: 100px;
-color: blue;
-  font-size: 25px;
-}
+a {text-decoration: none;} /*colors from flatuicolors*/
+a:link { color: #2980b9;}
+ a:visited { color: #2980b9;}
+  a:hover {color: #f1c40f;}
+   a:active {color: #f1c40f;}
 
-h1 {color:blue;}
-
-#npara {
-border-width: inherit;
-  height: 500px;
-}
-
-#nursery {
-margin-top: 30px;
-margin-left: 30px;
-    text-align: left;
-}
-
-#grocery {
-margin-top: 30px;
-margin-left: 30px;
-    text-align: left;
-}
-
-
-#footer {
-  height: 100px;
-  color: blue;
-  font-size: 25px;
+  .body {
+    margin: 10px auto;
+    width: 70%;
+    clear: both;
   }
 
-/* put any comment
-you can search for any code by copying the code and paste it to google and search
-you may find the exact code you need like in  stackoverflow website*/
+  /* -------------------------------Main Header------------------------------*/
+  .mainheader img {
+    width: 100%;
+  }
+
+.mainheader nav {
+  background-color: #2980b9;
+  height: 40px;
+  border-radius: 5px;
+  --moz-border-radius: 5px;
+}
+
+.mainheader nav ul {
+  text-align: center;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.mainheader nav ul li {
+  display: inline;
+}
+
+.mainheader a:link, .mainheader a:visited {
+  color: white;
+  padding: 10px 40px;
+  display: inline-block;
+}
+
+.mainheader a:hover {
+  color: white;
+  border-color: #f1c40f;
+  text-shadow: none;
+}
+ .mainheader a:active {
+  color: white;
+  border-color: #f1c40f;
+  text-shadow: none;
+}
+
+/* -------------------------------Main Content------------------------------*/
+.mainContent{
+  width: 70%;
+  float: left;
+}
+
+.top-content {
+  background-color: #fff;
+  padding: 3%;
+  margin-top:3%;
+  border-radius: 5px;
+  --moz-border-radius: 5px;
+
+}
+
+.post-info {
+  font-size: 90%;
+  color: #999;
+  font-style: italic;
+  margin-top: -20px;
+}
+
+.post-Content{
+  display: inline;
+}
+
+.post-img{
+  width: 100%;
+
+}
+
+/* -------------------------------Side bar------------------------------*/
+.theSidebar {
+  width: 24%;
+  margin: 2% 0 0 2%;
+  float: left;
+  padding: 2%;
+  background-color: #fff;
+  border-radius: 5px;
+    --moz-border-radius: 5px;
+}
+
+/* ------------------------------Footer------------------------------*/
+.footer {
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+  background-color: #2980b9;
+  height: 60px;
+  border-radius: 5px;
+  --moz-border-radius: 5px;
+}
+
+.footer p {
+  text-align: center;
+  color: white;
+  width: 90%;
+}
+
+/* -------------------------------Css for mobile------------------------------*/
+@media screen and (max-width: 340px;){
+  .body {
+    width: 90%;
+    font-size: 95%;
+  }
+  /* -------------------------------Main header mobile------------------------------*/
+
+
+.mainheader nav {
+  height: 160px;
+}
+
+.mainheader ul{
+  width: 100%;
+  padding: 0;
+}
+
+
+.mainheader nav ul li {
+  display: inline;
+}
+
+.mainheader a:link, .mainheader a:visited {
+  color: white;
+  padding: 10px 40px;
+  display: inline-block;
+  height: 20 px;
+  display: block;
+}
+
+.mainheader a:hover {
+  color: white;
+  border-color: #f1c40f;
+  text-shadow: none;
+}
+ .mainheader a:active {
+  width: 100%;
+}
+
+.theSidebar {
+  width: 94%;
+
+}
+
+}
